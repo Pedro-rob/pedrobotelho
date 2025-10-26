@@ -8,7 +8,7 @@ jobs:
   call-reusable-workflow:
     # Define um job chamado "call-reusable-workflow".
 
-    uses: Pedro-rob/workflower/blob/main/.github/workflows/ci.yml
+    uses: Pedro-rob/workflower/.github/workflows/ci.yml
     # Especifica a localização do workflow reutilizável que deve ser chamado.
     # Certifique-se de que o caminho e branch (main) estão corretos.
 
